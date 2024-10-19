@@ -1,0 +1,42 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Came Dance with Us
+        div.small Step-by-Step Learning For All Levels
+        div.small Whether you’re just starting out or you’ve got some training under your belt – we got you covered.
+    section#sponsorsSection 
+        p.cadlog Learn A Variety of Dance Styles
+        div.card
+          img(src="/static/HipHop.jpg")
+          p Hip Hop
+        div.card
+          img(src="/static/Contemporary.jpg")
+          p Contemporary
+        div.card
+          img(src="/static/Dance Workout.jpg")
+          p Dance Workout
+        div.card
+          img(src="/static/K-Pop.jpg")
+          p K-Pop
+        div.card
+          img(src="/static/Ballet.jpg")
+          p Ballet 
+        div.card
+          img(src="/static/Salsa.jpg")
+          p Salsa
+        div.card
+          img(src="/static/Popping.jpg")
+          p Popping
+        div.card
+          img(src="/static/Jazz.jpg")
+          p Jazz
+    footer#footer 
+        | Copyright | All rights Reserved
+    
